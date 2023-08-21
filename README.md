@@ -1,8 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+本项目是 [Next.js 学习之路.](https://techrk1688.eu.org/) 教程的配套的第一个实战项目，内容主要涉及 chakra UI 的使用，以及 Next.js 的基本使用。
 
-## Getting Started
+## 开始
 
-First, run the development server:
+首先，运行开发服务器：
 
 ```bash
 npm run dev
@@ -12,23 +12,21 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+使用浏览器打开 <http://localhost:3000> 以查看结果。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+您可以通过修改 app/page.tsx 来开始编辑页面。当您编辑文件时，页面会自动更新。
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+该项目用于 next/font 自动优化和加载自定义Google字体Inter。
 
-## Learn More
+## 了解更多信息
 
-To learn more about Next.js, take a look at the following resources:
+若要了解有关 Next.js 的详细信息，请查看以下资源：
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 部署
 
-## Deploy on Vercel
+部署Next.js应用程序的最简单方法是使用Next.js创建者的Vercel平台。
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+有关更多详细信息，请查看[Next.js 部署文档](https://nextjs.org/docs/deployment)。
