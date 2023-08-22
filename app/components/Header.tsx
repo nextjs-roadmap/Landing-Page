@@ -69,11 +69,7 @@ export default function Header() {
             />
           </Text>
 
-          <Flex
-            display={{ base: "none", md: "flex" }}
-            ml={10}
-            className="align-center"
-          >
+          <Flex display={{ base: "none", md: "flex" }} ml={10} align={"center"}>
             <DesktopNav />
           </Flex>
         </Flex>
