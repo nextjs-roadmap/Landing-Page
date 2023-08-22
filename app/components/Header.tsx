@@ -69,7 +69,11 @@ export default function Header() {
             />
           </Text>
 
-          <Flex display={{ base: "none", md: "flex" }} ml={10}>
+          <Flex
+            display={{ base: "none", md: "flex" }}
+            ml={10}
+            className="align-center"
+          >
             <DesktopNav />
           </Flex>
         </Flex>
@@ -119,7 +123,7 @@ const DesktopNav = () => {
   const popoverContentBgColor = useColorModeValue("white", "gray.800");
 
   return (
-    <Stack direction={"row"} spacing={4} className="align-center">
+    <Stack direction={"row"} spacing={4}>
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
