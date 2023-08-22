@@ -10,6 +10,7 @@ import {
   Icon,
   IconProps,
 } from "@chakra-ui/react";
+import Link from "next/link";
 
 const Illustration = (props: IconProps) => {
   return (
@@ -846,28 +847,29 @@ export default function Hero() {
           fontSize={{ base: "3xl", sm: "4xl", md: "6xl" }}
           lineHeight={"110%"}
         >
-          Meeting scheduling{" "}
+          Landing Page Create By{" "}
           <Text as={"span"} color={"orange.400"}>
-            made easy
+            zhuima
           </Text>
         </Heading>
         <Text color={"gray.500"} maxW={"3xl"}>
-          Never miss a meeting. Never be late for one too. Keep track of your
-          meetings and receive smart reminders in appropriate times. Read your
-          smart “Daily Agenda” every morning.
+          基于 Next.js + Chakra UI + Typescript + Vercel 的 Landing Page 模板
         </Text>
         <Stack spacing={6} direction={"row"}>
           <Button
             rounded={"full"}
             px={6}
-            colorScheme={"orange"}
-            bg={"orange.400"}
-            _hover={{ bg: "orange.500" }}
+            bg={"orange.300"}
+            // _hover={{ bg: "orange.300" }}
           >
-            Get started
+            <Link href="https://techrk1688.eu.org/docs/documentation/real-world-project/landing-page">
+              快速开始
+            </Link>
           </Button>
           <Button rounded={"full"} px={6}>
-            Learn more
+            <Link href="https://techrk1688.eu.org/docs/documentation/real-world-project/landing-page">
+              了解更多
+            </Link>
           </Button>
         </Stack>
         <Flex w={"full"}>

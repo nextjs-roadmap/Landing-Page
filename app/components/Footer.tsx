@@ -49,85 +49,38 @@ export default function Footer() {
       <Container as={Stack} maxW={"6xl"} py={10}>
         <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
           <Stack align={"flex-start"}>
-            <ListHeader>Product</ListHeader>
-            <Box as="a" href={"#"}>
-              Overview
-            </Box>
+            <ListHeader>文档</ListHeader>
+
             <Stack direction={"row"} align={"center"} spacing={2}>
-              <Box as="a" href={"#"}>
-                Features
-              </Box>
-              <Tag
-                size={"sm"}
-                bg={useColorModeValue("green.300", "green.800")}
-                ml={2}
-                color={"white"}
+              <Box
+                as="a"
+                href={
+                  "https://techrk1688.eu.org/docs/documentation/real-world-project/landing-page"
+                }
               >
-                New
+                教程
+              </Box>
+              <Tag size={"sm"} color={"white"}>
+                🔥
               </Tag>
             </Stack>
-            <Box as="a" href={"#"}>
-              Tutorials
-            </Box>
-            <Box as="a" href={"#"}>
-              Pricing
-            </Box>
-            <Box as="a" href={"#"}>
-              Releases
-            </Box>
           </Stack>
           <Stack align={"flex-start"}>
-            <ListHeader>Company</ListHeader>
+            <ListHeader>友情链接</ListHeader>
             <Box as="a" href={"#"}>
-              About Us
+              Next.js Docs
             </Box>
             <Box as="a" href={"#"}>
-              Press
+              TailWind CSS
             </Box>
             <Box as="a" href={"#"}>
-              Careers
+              TypeScript
             </Box>
             <Box as="a" href={"#"}>
-              Contact Us
+              Vercel
             </Box>
             <Box as="a" href={"#"}>
-              Partners
-            </Box>
-          </Stack>
-          <Stack align={"flex-start"}>
-            <ListHeader>Legal</ListHeader>
-            <Box as="a" href={"#"}>
-              Cookies Policy
-            </Box>
-            <Box as="a" href={"#"}>
-              Privacy Policy
-            </Box>
-            <Box as="a" href={"#"}>
-              Terms of Service
-            </Box>
-            <Box as="a" href={"#"}>
-              Law Enforcement
-            </Box>
-            <Box as="a" href={"#"}>
-              Status
-            </Box>
-          </Stack>
-          <Stack align={"flex-start"}>
-            <ListHeader>Follow Us</ListHeader>
-            <Box as="a" href={"#"}>
-              Facebook
-            </Box>
-            <Box as="a" href={"#"}>
-              Twitter
-            </Box>
-            <Box as="a" href={"#"}>
-              Dribbble
-            </Box>
-            <Box as="a" href={"#"}>
-              Instagram
-            </Box>
-            <Box as="a" href={"#"}>
-              LinkedIn
+              Chakra UI
             </Box>
           </Stack>
         </SimpleGrid>

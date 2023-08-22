@@ -22,6 +22,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
+import Image from "next/image";
 
 export default function Header() {
   const { isOpen, onToggle } = useDisclosure();
@@ -59,7 +60,13 @@ export default function Header() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            Logo
+            <Image
+              src="/logo.png"
+              height="60"
+              width="100"
+              alt="Landing Page Logo"
+              priority={true}
+            />
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -88,10 +95,10 @@ export default function Header() {
             fontSize={"sm"}
             fontWeight={600}
             color={"white"}
-            bg={"pink.400"}
+            bg={"orange.400"}
             href={"#"}
             _hover={{
-              bg: "pink.300",
+              bg: "orange.300",
             }}
           >
             Sign Up
