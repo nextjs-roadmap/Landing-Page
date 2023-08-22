@@ -853,14 +853,18 @@ export default function Hero() {
           </Text>
         </Heading>
         <Text color={"gray.500"} maxW={"3xl"}>
-          基于 Next.js + Chakra UI + Typescript + Vercel 的 Landing Page 模板
+          本项目是 「Next.js 学习之路」的配套实战项目之一
+          <br></br>
+          基于 Next.js + Chakra UI + Typescript + Vercel 构建的 Landing Page
         </Text>
         <Stack spacing={6} direction={"row"}>
           <Button
-            rounded={"full"}
-            px={6}
-            bg={"orange.300"}
-            // _hover={{ bg: "orange.300" }}
+            display={{ base: "none", md: "inline-flex" }}
+            color={"white"}
+            bg={"orange.400"}
+            _hover={{
+              bg: "orange.300",
+            }}
           >
             <Link href="https://techrk1688.eu.org/docs/documentation/real-world-project/landing-page">
               快速开始
