@@ -11,7 +11,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { ReactNode } from "react";
-
+import Image from "next/image";
 const Logo = (props: any) => {
   return (
     <svg
@@ -103,10 +103,16 @@ export default function Footer() {
             ml: 8,
           }}
         >
-          <Logo />
+          <Image
+            src="/logo.png"
+            height="32"
+            width="137"
+            alt="Landing Page Logo"
+            priority={true}
+          />
         </Flex>
         <Text pt={6} fontSize={"sm"} textAlign={"center"}>
-          © 2022 Chakra Templates. All rights reserved
+          © 2023 Landing Page By Zhuima. All rights reserved
         </Text>
       </Box>
     </Box>

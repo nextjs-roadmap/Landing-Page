@@ -62,8 +62,8 @@ export default function Header() {
           >
             <Image
               src="/logo.png"
-              height="60"
-              width="100"
+              height="32"
+              width="137"
               alt="Landing Page Logo"
               priority={true}
             />
@@ -119,7 +119,7 @@ const DesktopNav = () => {
   const popoverContentBgColor = useColorModeValue("white", "gray.800");
 
   return (
-    <Stack direction={"row"} spacing={4}>
+    <Stack direction={"row"} spacing={4} className="align-center">
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
