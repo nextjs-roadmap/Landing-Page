@@ -860,7 +860,6 @@ export default function Hero() {
         <Stack spacing={6} direction={"row"}>
           <Button
             display={{ base: "none", md: "inline-flex" }}
-            color={"white"}
             bg={"orange.400"}
             _hover={{
               bg: "orange.300",
